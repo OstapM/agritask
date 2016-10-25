@@ -836,8 +836,22 @@ footer{
   display: none;
 }
 
+.main-menu{
+  background: rgba(255,255,255,0);
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  margin: 0!important;
+  width: 100%;
+}
+
 .main-menu-scroll{
-  background: $white!important;
+  background: rgba(255,255,255,1)!important;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
   z-index: 9999;
   width: 100%;
   position: fixed;

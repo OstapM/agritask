@@ -46,7 +46,7 @@ $( window ).resize(function() {
 });
 $(window).scroll(function(){
  var scroll = $(window).scrollTop();
- var heroHeight = $('.hero-background').outerHeight();
+ var heroHeight = $('.main-menu').outerHeight();
      //>=, not <=
      if (scroll >= heroHeight) {
       $(".main-menu").addClass("main-menu-scroll");
