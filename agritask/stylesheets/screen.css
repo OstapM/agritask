@@ -942,29 +942,78 @@ footer .sitemap-menu a.item {
 
 /* line 799, ../sass/screen.scss */
 .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #869791;
+  background: #589a03;
 }
 
 /* line 802, ../sass/screen.scss */
-.owl-dots .owl-dot span {
-  width: 10px;
-  height: 10px;
-  margin: 5px 7px;
-  background: #d6d6d6;
-  display: block;
-  -webkit-backface-visibility: visible;
-  -webkit-transition: opacity 200ms ease;
-  -moz-transition: opacity 200ms ease;
-  -ms-transition: opacity 200ms ease;
-  -o-transition: opacity 200ms ease;
-  transition: opacity 200ms ease;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
+.owl-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 54.3px;
+  margin-left: -40.03px;
+}
+@media screen and (max-width: 992px) {
+  /* line 802, ../sass/screen.scss */
+  .owl-dots {
+    left: 50%;
+    margin-left: -87.7px;
+  }
 }
 
-/* line 818, ../sass/screen.scss */
+/* line 812, ../sass/screen.scss */
+.owl-dots .owl-dot span {
+  width: 12.7px;
+  height: 12.7px;
+  margin: 5px 19px;
+  background: #fff;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 200ms ease;
+  border-radius: 30px;
+}
+@media screen and (max-width: 992px) {
+  /* line 812, ../sass/screen.scss */
+  .owl-dots .owl-dot span {
+    margin-right: 38.8px;
+  }
+}
+
+/* line 825, ../sass/screen.scss */
 .owl-dots .owl-dot {
   display: inline-block;
   zoom: 1;
+}
+
+/* line 830, ../sass/screen.scss */
+.pushable-scroll {
+  -webkit-transform: initial !important;
+  transform: initial !important;
+}
+
+/* line 835, ../sass/screen.scss */
+.scroll-logo {
+  display: none;
+}
+
+/* line 839, ../sass/screen.scss */
+.main-menu-scroll {
+  background: #fff !important;
+  z-index: 9999;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 !important;
+}
+/* line 847, ../sass/screen.scss */
+.main-menu-scroll a.item {
+  color: #7a7a7a !important;
+}
+/* line 851, ../sass/screen.scss */
+.main-menu-scroll .logo img {
+  display: none;
+}
+/* line 853, ../sass/screen.scss */
+.main-menu-scroll .logo img.scroll-logo {
+  display: block;
 }

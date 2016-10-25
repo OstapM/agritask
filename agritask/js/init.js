@@ -45,5 +45,17 @@ $( window ).resize(function() {
 
 });
 $(window).scroll(function(){
+ var scroll = $(window).scrollTop();
+ var heroHeight = $('.hero-background').outerHeight();
+     //>=, not <=
+     if (scroll >= heroHeight) {
+      $(".main-menu").addClass("main-menu-scroll");
+      $(".pushable:not(body)").addClass("pushable-scroll");
+    }
+    else{
+      $(".main-menu").removeClass("main-menu-scroll");
+      $(".pushable:not(body)").removeClass("pushable-scroll");
 
-});
+
+    }
+  });

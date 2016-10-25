@@ -797,25 +797,62 @@ footer{
 }
 
 .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #869791;
+  background: $green;
+}
+.owl-dots{
+  position:absolute;
+  left:50%;
+  bottom:54.3px;
+  margin-left:-40.03px;
+  @media screen and (max-width:992px){
+    left:50%;
+    margin-left:-87.7px;
+  }
 }
 .owl-dots .owl-dot span {
-  width: 10px;
-  height: 10px;
-  margin: 5px 7px;
-  background: #d6d6d6;
+  width: 12.7px;
+  height: 12.7px;
+  margin: 5px 19px;
+  background: $white;
   display: block;
   -webkit-backface-visibility: visible;
-  -webkit-transition: opacity 200ms ease;
-  -moz-transition: opacity 200ms ease;
-  -ms-transition: opacity 200ms ease;
-  -o-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
   border-radius: 30px;
+  @media screen and (max-width:992px){
+    margin-right:38.8px;
+  }
 }
 .owl-dots .owl-dot {
   display: inline-block;
   zoom: 1;
+}
+
+.pushable-scroll{
+  -webkit-transform: initial!important;
+  transform: initial!important;
+}
+
+.scroll-logo{
+  display: none;
+}
+
+.main-menu-scroll{
+  background: $white!important;
+  z-index: 9999;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0!important;
+  a.item{
+    color: #7a7a7a!important;
+  }
+  .logo{
+    img{
+      display: none;
+      &.scroll-logo{
+        display: block;
+      }
+    }
+  }
 }
