@@ -16,6 +16,7 @@
 
     $orange: #ff9600;
     $white: #fff;
+    $black: #000;
     $green: #589a03;
     $gray: #4a4a4a;
     $light-gray: #f2f2f2;
@@ -224,9 +225,13 @@ section.field-data-icons{
 }
 
 .agritask-for-wrap{
+  .row{
+    padding: 0 !important;
+  }
   .column{
     @media (min-width: 992px){
       min-height: 422.8px;
+      padding: 74px 0;
     }
     &.light-gray-back{
       background-color: rgba(239, 239, 239, 0.4);
@@ -238,6 +243,9 @@ section.field-data-icons{
 }
 
 .img-with-text{
+  @media (min-width: 992px){
+    padding: 145px 0;
+  }
   .container{
     display: -moz-flex;
     display: -ms-flex;
@@ -264,7 +272,7 @@ section.field-data-icons{
     order: 2;
     min-height: 464.6px;
     width: 100%;
-    background-position: 0px 0px, 50% 50%;
+    background-position: 0px 0px, 100% 50%;
     background-size: auto, contain;
     background-repeat: repeat, no-repeat;
     @media (max-width: 991px){
@@ -272,6 +280,7 @@ section.field-data-icons{
     }
   }
   &.left-img{
+    background: $light-gray;
     .text-block{
       -ms-flex-order: 2;
       order: 2;
@@ -281,4 +290,47 @@ section.field-data-icons{
       order: 1;
     }
   }
+  .text-block{
+    h3{
+      font-family: $opensans;
+      font-size: 46px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.2;
+      color: $green;
+    }
+    p{
+      font-family: $opensans;
+      font-size: 20px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.7;
+      color: $black;
+      margin-top: 27px;
+    }
+    a{
+      width: 278px;
+      height: 54px;
+      border-radius: 2px;
+      border: solid 2px $green;
+      font-family: $lato;
+      font-size: 14px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 0.9px;
+      text-align: center;
+      color: $green;
+      padding: 19px 39px;
+      display: block;
+      text-transform: uppercase;
+      margin-top: 36px;
+    }
+  }
+}
+
+.text-banner{
+
 }

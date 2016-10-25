@@ -76,7 +76,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /*colors-included*/
 /*font-include*/
 /* font-include*/
-/* line 36, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 body, html {
   height: auto !important;
   font-family: "Lato", sans-serif;
@@ -85,32 +85,32 @@ body, html {
 }
 
 @media (min-width: 992px) {
-  /* line 43, ../sass/screen.scss */
+  /* line 44, ../sass/screen.scss */
   .mobile-only {
     display: none !important;
   }
 }
 
 @media (max-width: 991px) {
-  /* line 48, ../sass/screen.scss */
+  /* line 49, ../sass/screen.scss */
   .desktop-only {
     display: none !important;
   }
 }
 
 @media (max-width: 991px) {
-  /* line 57, ../sass/screen.scss */
+  /* line 58, ../sass/screen.scss */
   header .desktop-menu {
     display: none !important;
   }
 }
 @media (min-width: 992px) {
-  /* line 63, ../sass/screen.scss */
+  /* line 64, ../sass/screen.scss */
   .ui.left.vertical.menu.sidebar.hidden.overlay.visible, .mobile-logo, .mobile-btn {
     display: none !important;
   }
 }
-/* line 68, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .hero-background {
   min-height: 634px;
   width: 100%;
@@ -118,7 +118,7 @@ body, html {
 }
 
 @media (min-width: 992px) {
-  /* line 76, ../sass/screen.scss */
+  /* line 77, ../sass/screen.scss */
   .main-slider .owl-carousel .item {
     min-height: 602px;
     background-position: 0px 0px, 50% 50%;
@@ -127,7 +127,7 @@ body, html {
   }
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .slider-text-wrap {
   display: -ms-flexbox;
   display: flex;
@@ -138,12 +138,12 @@ body, html {
   flex-direction: column;
 }
 @media (min-width: 992px) {
-  /* line 87, ../sass/screen.scss */
+  /* line 88, ../sass/screen.scss */
   .slider-text-wrap {
     min-height: 602px;
   }
 }
-/* line 98, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .slider-text-wrap h2 {
   color: #589a03;
   font-size: 46px;
@@ -156,13 +156,13 @@ body, html {
   display: block;
 }
 @media (min-width: 992px) {
-  /* line 98, ../sass/screen.scss */
+  /* line 99, ../sass/screen.scss */
   .slider-text-wrap h2 {
     max-width: 789px;
     margin-bottom: 82px;
   }
 }
-/* line 113, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 .slider-text-wrap .slider-descript {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
@@ -175,30 +175,30 @@ body, html {
   color: #fff;
 }
 @media (min-width: 992px) {
-  /* line 113, ../sass/screen.scss */
+  /* line 114, ../sass/screen.scss */
   .slider-text-wrap .slider-descript {
     max-width: 745px;
   }
 }
 
-/* line 131, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .slider-user-comment-wrap .slider-user img {
   width: 73px;
   height: 73px;
   border-radius: 50%;
 }
 
-/* line 139, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 section.field-data-icons {
   overflow: hidden;
 }
 @media (min-width: 992px) {
-  /* line 139, ../sass/screen.scss */
+  /* line 140, ../sass/screen.scss */
   section.field-data-icons {
     padding: 75px 0;
   }
 }
-/* line 144, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 section.field-data-icons .data-field-header {
   font-family: "Open Sans", sans-serif;
   font-size: 42px;
@@ -210,7 +210,7 @@ section.field-data-icons .data-field-header {
   color: #589a03;
 }
 @media (min-width: 992px) {
-  /* line 144, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   section.field-data-icons .data-field-header {
     max-width: 616px;
     display: block;
@@ -220,13 +220,13 @@ section.field-data-icons .data-field-header {
   }
 }
 
-/* line 166, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 .single-data-wrap .single-data-img img {
   margin: 0 auto;
   display: block;
   text-align: center;
 }
-/* line 173, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 .single-data-wrap .single-data-text h4 {
   font-family: "Roboto", sans-serif;
   font-size: 22px;
@@ -238,7 +238,7 @@ section.field-data-icons .data-field-header {
   color: #4a4a4a;
   margin-bottom: 20px;
 }
-/* line 184, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 .single-data-wrap .single-data-text p {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -250,11 +250,11 @@ section.field-data-icons .data-field-header {
   color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 198, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .agritask-for-single img {
   margin-bottom: 25px;
 }
-/* line 201, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .agritask-for-single h4 {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
@@ -266,7 +266,7 @@ section.field-data-icons .data-field-header {
   color: #4a4a4a;
   margin-bottom: 19px;
 }
-/* line 213, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 .agritask-for-single ul li {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -278,22 +278,33 @@ section.field-data-icons .data-field-header {
   color: rgba(0, 0, 0, 0.6);
 }
 
+/* line 228, ../sass/screen.scss */
+.agritask-for-wrap .row {
+  padding: 0 !important;
+}
 @media (min-width: 992px) {
-  /* line 227, ../sass/screen.scss */
+  /* line 231, ../sass/screen.scss */
   .agritask-for-wrap .column {
     min-height: 422.8px;
+    padding: 74px 0;
   }
 }
-/* line 231, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .agritask-for-wrap .column.light-gray-back {
   background-color: rgba(239, 239, 239, 0.4);
 }
-/* line 234, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 .agritask-for-wrap .column.darker-gray-back {
   background: #f2f2f2;
 }
 
-/* line 241, ../sass/screen.scss */
+@media (min-width: 992px) {
+  /* line 245, ../sass/screen.scss */
+  .img-with-text {
+    padding: 145px 0;
+  }
+}
+/* line 249, ../sass/screen.scss */
 .img-with-text .container {
   display: -moz-flex;
   display: -ms-flex;
@@ -303,7 +314,7 @@ section.field-data-icons .data-field-header {
   -ms-flex-align: stretch;
   align-items: stretch;
 }
-/* line 250, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 .img-with-text .text-block {
   -ms-flex: 1;
   flex: 1;
@@ -312,7 +323,7 @@ section.field-data-icons .data-field-header {
   -ms-flex-item-align: center;
   align-self: center;
 }
-/* line 258, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 .img-with-text .img-block {
   -ms-flex: 1.7;
   flex: 1.7;
@@ -322,23 +333,67 @@ section.field-data-icons .data-field-header {
   order: 2;
   min-height: 464.6px;
   width: 100%;
-  background-position: 0px 0px, 50% 50%;
+  background-position: 0px 0px, 100% 50%;
   background-size: auto, contain;
   background-repeat: repeat, no-repeat;
 }
 @media (max-width: 991px) {
-  /* line 258, ../sass/screen.scss */
+  /* line 266, ../sass/screen.scss */
   .img-with-text .img-block {
     min-height: 250px;
   }
 }
-/* line 275, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
+.img-with-text.left-img {
+  background: #f2f2f2;
+}
+/* line 284, ../sass/screen.scss */
 .img-with-text.left-img .text-block {
   -ms-flex-order: 2;
   order: 2;
 }
-/* line 279, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 .img-with-text.left-img .img-block {
   -ms-flex-order: 1;
   order: 1;
+}
+/* line 294, ../sass/screen.scss */
+.img-with-text .text-block h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 46px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  color: #589a03;
+}
+/* line 303, ../sass/screen.scss */
+.img-with-text .text-block p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  color: #000;
+  margin-top: 27px;
+}
+/* line 313, ../sass/screen.scss */
+.img-with-text .text-block a {
+  width: 278px;
+  height: 54px;
+  border-radius: 2px;
+  border: solid 2px #589a03;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #589a03;
+  padding: 19px 39px;
+  display: block;
+  text-transform: uppercase;
+  margin-top: 36px;
 }
