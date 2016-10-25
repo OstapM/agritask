@@ -856,3 +856,60 @@ footer{
     }
   }
 }
+
+
+
+.hero-btn-wrap{
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  @media screen and (max-width:992px){
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    @media screen and (max-width:992px){
+      width:329.9px;
+      height:auto;
+    }
+  }
+  .standart-btn{
+    width:178.5px;
+    height:54px;
+    font-size:14px;
+    font-family:$lato;
+    font-weight:700;
+    text-align:center;
+    letter-spacing: 0.9px;
+    text-transform:uppercase;
+    padding:19px 30.5px 18px 30px;
+    border: solid 2px rgba(255, 255, 255, 0.79);
+    border-radius:3px;
+    color:$white;
+    &:first-child{
+      margin-right:18px;
+    }
+    @media screen and (max-width:992px){
+      width:100%;
+      height:auto;
+      padding:20.7px 55.7px 19.7px 56.2px;
+      text-align:center;
+      &:first-child{
+        margin-right:0;
+        margin-top:22.7px;
+        width:100%;
+        height:auto;
+        padding:20.7px 80px 19.7px 79px;
+        -webkit-order:1;
+        -ms-flex-order:1;
+        order:1;
+      }
+    }
+  }
+  .active{
+    width:278px;
+    height:54px;
+    padding:19px 66px 18px 68px;
+    background-color:$orange;
+    border: solid 2px $orange;
+  }
+}
