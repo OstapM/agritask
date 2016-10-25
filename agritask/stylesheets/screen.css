@@ -304,7 +304,13 @@ section.field-data-icons .data-field-header {
     padding: 145px 0;
   }
 }
-/* line 249, ../sass/screen.scss */
+@media (max-width: 991px) {
+  /* line 245, ../sass/screen.scss */
+  .img-with-text {
+    padding: 30px 0;
+  }
+}
+/* line 252, ../sass/screen.scss */
 .img-with-text .container {
   display: -moz-flex;
   display: -ms-flex;
@@ -314,7 +320,13 @@ section.field-data-icons .data-field-header {
   -ms-flex-align: stretch;
   align-items: stretch;
 }
-/* line 258, ../sass/screen.scss */
+@media (max-width: 991px) {
+  /* line 252, ../sass/screen.scss */
+  .img-with-text .container {
+    flex-direction: column;
+  }
+}
+/* line 264, ../sass/screen.scss */
 .img-with-text .text-block {
   -ms-flex: 1;
   flex: 1;
@@ -323,7 +335,7 @@ section.field-data-icons .data-field-header {
   -ms-flex-item-align: center;
   align-self: center;
 }
-/* line 266, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 .img-with-text .img-block {
   -ms-flex: 1.7;
   flex: 1.7;
@@ -338,26 +350,26 @@ section.field-data-icons .data-field-header {
   background-repeat: repeat, no-repeat;
 }
 @media (max-width: 991px) {
-  /* line 266, ../sass/screen.scss */
+  /* line 272, ../sass/screen.scss */
   .img-with-text .img-block {
     min-height: 250px;
   }
 }
-/* line 282, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 .img-with-text.left-img {
   background: #f2f2f2;
 }
-/* line 284, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 .img-with-text.left-img .text-block {
   -ms-flex-order: 2;
   order: 2;
 }
-/* line 288, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 .img-with-text.left-img .img-block {
   -ms-flex-order: 1;
   order: 1;
 }
-/* line 294, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 .img-with-text .text-block h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 46px;
@@ -367,7 +379,7 @@ section.field-data-icons .data-field-header {
   line-height: 1.2;
   color: #589a03;
 }
-/* line 303, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 .img-with-text .text-block p {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
@@ -378,7 +390,7 @@ section.field-data-icons .data-field-header {
   color: #000;
   margin-top: 27px;
 }
-/* line 313, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 .img-with-text .text-block a {
   width: 278px;
   height: 54px;
@@ -396,4 +408,241 @@ section.field-data-icons .data-field-header {
   display: block;
   text-transform: uppercase;
   margin-top: 36px;
+}
+
+/* line 340, ../sass/screen.scss */
+.text-banner {
+  min-height: 602px;
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+/* line 345, ../sass/screen.scss */
+.text-banner .text-banner-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 602px;
+}
+/* line 354, ../sass/screen.scss */
+.text-banner .text-banner-wrap h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 46px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  text-align: center;
+  color: #589a03;
+  margin-bottom: 25px;
+}
+@media (min-width: 992px) {
+  /* line 354, ../sass/screen.scss */
+  .text-banner .text-banner-wrap h2 {
+    max-width: 824px;
+  }
+}
+/* line 368, ../sass/screen.scss */
+.text-banner .text-banner-wrap p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #fff;
+}
+@media (min-width: 992px) {
+  /* line 368, ../sass/screen.scss */
+  .text-banner .text-banner-wrap p {
+    max-width: 764px;
+  }
+}
+
+/* line 386, ../sass/screen.scss */
+.teaser-with-text-wrap .teaser-text-flex-wrap {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+@media (max-width: 991px) {
+  /* line 386, ../sass/screen.scss */
+  .teaser-with-text-wrap .teaser-text-flex-wrap {
+    flex-direction: column;
+  }
+}
+/* line 397, ../sass/screen.scss */
+.teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block {
+  -ms-flex: 50%;
+  flex: 50%;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -ms-flex-order: 1;
+  order: 1;
+}
+/* line 404, ../sass/screen.scss */
+.teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 46px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  text-align: center;
+  color: #589a03;
+}
+@media (min-width: 992px) {
+  /* line 404, ../sass/screen.scss */
+  .teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block h2 {
+    max-width: 392px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+/* line 420, ../sass/screen.scss */
+.teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  text-align: center;
+  color: #000;
+}
+@media (min-width: 992px) {
+  /* line 420, ../sass/screen.scss */
+  .teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block p {
+    max-width: 343.8px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 37px;
+  }
+}
+/* line 437, ../sass/screen.scss */
+.teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block a {
+  display: block;
+  width: 278px;
+  border-radius: 2px;
+  background-color: #ff9600;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #fff;
+  padding: 19px 39px;
+  text-transform: uppercase;
+}
+@media (min-width: 992px) {
+  /* line 437, ../sass/screen.scss */
+  .teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block a {
+    max-width: 278px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 49px;
+  }
+}
+/* line 461, ../sass/screen.scss */
+.teaser-with-text-wrap .teaser-text-flex-wrap .teaser-img-block {
+  -ms-flex: 50%;
+  flex: 50%;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -ms-flex-order: 2;
+  order: 2;
+  min-height: 464.6px;
+  width: 100%;
+  background-position: 0px 0px, 100% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+@media (min-width: 992px) {
+  /* line 461, ../sass/screen.scss */
+  .teaser-with-text-wrap .teaser-text-flex-wrap .teaser-img-block {
+    min-height: 668px;
+  }
+}
+/* line 480, ../sass/screen.scss */
+.teaser-with-text-wrap.left-img .teaser-img-block {
+  -ms-flex-order: 1;
+  order: 1;
+}
+/* line 484, ../sass/screen.scss */
+.teaser-with-text-wrap.left-img .teaser-text-block {
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+/* line 491, ../sass/screen.scss */
+.single-team-user-wrap {
+  margin-bottom: 25px;
+}
+/* line 492, ../sass/screen.scss */
+.single-team-user-wrap img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 499, ../sass/screen.scss */
+.single-team-user-wrap h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #7a7a7a;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  margin-top: 14px;
+}
+/* line 512, ../sass/screen.scss */
+.single-team-user-wrap p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  text-align: center;
+  color: #000;
+}
+
+@media (min-width: 992px) {
+  /* line 525, ../sass/screen.scss */
+  .our-team {
+    padding: 67px 0;
+  }
+}
+/* line 529, ../sass/screen.scss */
+.our-team h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 46px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  text-align: center;
+  color: #589a03;
+  display: block;
+  margin-bottom: 42px;
 }
