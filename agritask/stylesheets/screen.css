@@ -226,8 +226,9 @@ section.field-data-icons .data-field-header {
   margin: 0 auto;
   display: block;
   text-align: center;
+  height: 109px;
 }
-/* line 175, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 .single-data-wrap .single-data-text h4 {
   font-family: "Roboto", sans-serif;
   font-size: 22px;
@@ -239,7 +240,7 @@ section.field-data-icons .data-field-header {
   color: #4a4a4a;
   margin-bottom: 20px;
 }
-/* line 186, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 .single-data-wrap .single-data-text p {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -251,11 +252,11 @@ section.field-data-icons .data-field-header {
   color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 200, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 .agritask-for-single img {
   margin-bottom: 25px;
 }
-/* line 203, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .agritask-for-single h4 {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
@@ -267,7 +268,7 @@ section.field-data-icons .data-field-header {
   color: #4a4a4a;
   margin-bottom: 19px;
 }
-/* line 215, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .agritask-for-single ul li {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -279,39 +280,39 @@ section.field-data-icons .data-field-header {
   color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 229, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .agritask-for-wrap .row {
   padding: 0 !important;
 }
 @media (min-width: 992px) {
-  /* line 232, ../sass/screen.scss */
+  /* line 233, ../sass/screen.scss */
   .agritask-for-wrap .column {
     min-height: 422.8px;
     padding: 74px 0;
   }
 }
-/* line 237, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 .agritask-for-wrap .column.light-gray-back {
   background-color: rgba(239, 239, 239, 0.4);
 }
-/* line 240, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 .agritask-for-wrap .column.darker-gray-back {
   background: #f2f2f2;
 }
 
 @media (min-width: 992px) {
-  /* line 246, ../sass/screen.scss */
+  /* line 247, ../sass/screen.scss */
   .img-with-text {
     padding: 145px 0;
   }
 }
 @media (max-width: 991px) {
-  /* line 246, ../sass/screen.scss */
+  /* line 247, ../sass/screen.scss */
   .img-with-text {
     padding: 30px 0;
   }
 }
-/* line 253, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 .img-with-text .container {
   display: -moz-flex;
   display: -ms-flex;
@@ -322,13 +323,13 @@ section.field-data-icons .data-field-header {
   align-items: stretch;
 }
 @media (max-width: 991px) {
-  /* line 253, ../sass/screen.scss */
+  /* line 254, ../sass/screen.scss */
   .img-with-text .container {
     -ms-flex-direction: column;
     flex-direction: column;
   }
 }
-/* line 266, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 .img-with-text .text-block {
   -ms-flex: 1;
   flex: 1;
@@ -338,7 +339,7 @@ section.field-data-icons .data-field-header {
   -ms-grid-row-align: center;
   align-self: center;
 }
-/* line 275, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .img-with-text .img-block {
   -ms-flex: 1.7;
   flex: 1.7;
@@ -354,26 +355,26 @@ section.field-data-icons .data-field-header {
   background-repeat: repeat, no-repeat;
 }
 @media (max-width: 991px) {
-  /* line 275, ../sass/screen.scss */
+  /* line 276, ../sass/screen.scss */
   .img-with-text .img-block {
     min-height: 250px;
   }
 }
-/* line 292, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 .img-with-text.left-img {
   background: #f2f2f2;
 }
-/* line 294, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .img-with-text.left-img .text-block {
   -ms-flex-order: 2;
   order: 2;
 }
-/* line 298, ../sass/screen.scss */
+/* line 299, ../sass/screen.scss */
 .img-with-text.left-img .img-block {
   -ms-flex-order: 1;
   order: 1;
 }
-/* line 304, ../sass/screen.scss */
+/* line 305, ../sass/screen.scss */
 .img-with-text .text-block h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 46px;
@@ -383,7 +384,7 @@ section.field-data-icons .data-field-header {
   line-height: 1.2;
   color: #589a03;
 }
-/* line 313, ../sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 .img-with-text .text-block p {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
@@ -394,7 +395,7 @@ section.field-data-icons .data-field-header {
   color: #000;
   margin-top: 27px;
 }
-/* line 323, ../sass/screen.scss */
+/* line 324, ../sass/screen.scss */
 .img-with-text .text-block a {
   width: 278px;
   height: 54px;
@@ -414,14 +415,14 @@ section.field-data-icons .data-field-header {
   margin-top: 36px;
 }
 
-/* line 344, ../sass/screen.scss */
+/* line 345, ../sass/screen.scss */
 .text-banner {
   min-height: 602px;
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
 }
-/* line 349, ../sass/screen.scss */
+/* line 350, ../sass/screen.scss */
 .text-banner .text-banner-wrap {
   display: -ms-flexbox;
   display: flex;
@@ -433,7 +434,7 @@ section.field-data-icons .data-field-header {
   flex-direction: column;
   min-height: 602px;
 }
-/* line 359, ../sass/screen.scss */
+/* line 360, ../sass/screen.scss */
 .text-banner .text-banner-wrap h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 46px;
@@ -446,12 +447,12 @@ section.field-data-icons .data-field-header {
   margin-bottom: 25px;
 }
 @media (min-width: 992px) {
-  /* line 359, ../sass/screen.scss */
+  /* line 360, ../sass/screen.scss */
   .text-banner .text-banner-wrap h2 {
     max-width: 824px;
   }
 }
-/* line 373, ../sass/screen.scss */
+/* line 374, ../sass/screen.scss */
 .text-banner .text-banner-wrap p {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
@@ -464,13 +465,13 @@ section.field-data-icons .data-field-header {
   color: #fff;
 }
 @media (min-width: 992px) {
-  /* line 373, ../sass/screen.scss */
+  /* line 374, ../sass/screen.scss */
   .text-banner .text-banner-wrap p {
     max-width: 764px;
   }
 }
 
-/* line 391, ../sass/screen.scss */
+/* line 392, ../sass/screen.scss */
 .teaser-with-text-wrap .teaser-text-flex-wrap {
   display: -moz-flex;
   display: -ms-flex;
@@ -481,13 +482,13 @@ section.field-data-icons .data-field-header {
   align-items: stretch;
 }
 @media (max-width: 991px) {
-  /* line 391, ../sass/screen.scss */
+  /* line 392, ../sass/screen.scss */
   .teaser-with-text-wrap .teaser-text-flex-wrap {
     -ms-flex-direction: column;
     flex-direction: column;
   }
 }
-/* line 403, ../sass/screen.scss */
+/* line 404, ../sass/screen.scss */
 .teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block {
   -ms-flex: 50%;
   flex: 50%;
@@ -497,7 +498,7 @@ section.field-data-icons .data-field-header {
   -ms-flex-order: 1;
   order: 1;
 }
-/* line 411, ../sass/screen.scss */
+/* line 412, ../sass/screen.scss */
 .teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 46px;
@@ -509,7 +510,7 @@ section.field-data-icons .data-field-header {
   color: #589a03;
 }
 @media (min-width: 992px) {
-  /* line 411, ../sass/screen.scss */
+  /* line 412, ../sass/screen.scss */
   .teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block h2 {
     max-width: 392px;
     display: block;
@@ -517,7 +518,7 @@ section.field-data-icons .data-field-header {
     margin: 0 auto;
   }
 }
-/* line 427, ../sass/screen.scss */
+/* line 428, ../sass/screen.scss */
 .teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block p {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
@@ -529,7 +530,7 @@ section.field-data-icons .data-field-header {
   color: #000;
 }
 @media (min-width: 992px) {
-  /* line 427, ../sass/screen.scss */
+  /* line 428, ../sass/screen.scss */
   .teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block p {
     max-width: 343.8px;
     display: block;
@@ -538,7 +539,7 @@ section.field-data-icons .data-field-header {
     margin-top: 37px;
   }
 }
-/* line 444, ../sass/screen.scss */
+/* line 445, ../sass/screen.scss */
 .teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block a {
   display: block;
   width: 278px;
@@ -556,7 +557,7 @@ section.field-data-icons .data-field-header {
   text-transform: uppercase;
 }
 @media (min-width: 992px) {
-  /* line 444, ../sass/screen.scss */
+  /* line 445, ../sass/screen.scss */
   .teaser-with-text-wrap .teaser-text-flex-wrap .teaser-text-block a {
     max-width: 278px;
     display: block;
@@ -565,7 +566,7 @@ section.field-data-icons .data-field-header {
     margin-top: 49px;
   }
 }
-/* line 468, ../sass/screen.scss */
+/* line 469, ../sass/screen.scss */
 .teaser-with-text-wrap .teaser-text-flex-wrap .teaser-img-block {
   -ms-flex: 50%;
   flex: 50%;
@@ -581,27 +582,27 @@ section.field-data-icons .data-field-header {
   background-repeat: repeat, no-repeat;
 }
 @media (min-width: 992px) {
-  /* line 468, ../sass/screen.scss */
+  /* line 469, ../sass/screen.scss */
   .teaser-with-text-wrap .teaser-text-flex-wrap .teaser-img-block {
     min-height: 668px;
   }
 }
-/* line 488, ../sass/screen.scss */
+/* line 489, ../sass/screen.scss */
 .teaser-with-text-wrap.left-img .teaser-img-block {
   -ms-flex-order: 1;
   order: 1;
 }
-/* line 492, ../sass/screen.scss */
+/* line 493, ../sass/screen.scss */
 .teaser-with-text-wrap.left-img .teaser-text-block {
   -ms-flex-order: 2;
   order: 2;
 }
 
-/* line 499, ../sass/screen.scss */
+/* line 500, ../sass/screen.scss */
 .single-team-user-wrap {
   margin-bottom: 25px;
 }
-/* line 500, ../sass/screen.scss */
+/* line 501, ../sass/screen.scss */
 .single-team-user-wrap img {
   width: 170px;
   height: 170px;
@@ -615,7 +616,7 @@ section.field-data-icons .data-field-header {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 514, ../sass/screen.scss */
+/* line 515, ../sass/screen.scss */
 .single-team-user-wrap:hover img {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
@@ -624,7 +625,7 @@ section.field-data-icons .data-field-header {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 523, ../sass/screen.scss */
+/* line 524, ../sass/screen.scss */
 .single-team-user-wrap h5 {
   font-family: "Lato", sans-serif;
   font-size: 14px;
@@ -638,7 +639,7 @@ section.field-data-icons .data-field-header {
   text-transform: uppercase;
   margin-top: 14px;
 }
-/* line 536, ../sass/screen.scss */
+/* line 537, ../sass/screen.scss */
 .single-team-user-wrap p {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
@@ -651,12 +652,12 @@ section.field-data-icons .data-field-header {
 }
 
 @media (min-width: 992px) {
-  /* line 549, ../sass/screen.scss */
+  /* line 550, ../sass/screen.scss */
   .our-team {
     padding: 67px 0;
   }
 }
-/* line 553, ../sass/screen.scss */
+/* line 554, ../sass/screen.scss */
 .our-team h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 46px;
@@ -670,12 +671,12 @@ section.field-data-icons .data-field-header {
   margin-bottom: 42px;
 }
 
-/* line 569, ../sass/screen.scss */
+/* line 570, ../sass/screen.scss */
 .agritask-header-outside {
   width: 100%;
   padding: 56px 0;
 }
-/* line 572, ../sass/screen.scss */
+/* line 573, ../sass/screen.scss */
 .agritask-header-outside .agritask-header-wrapper {
   display: block;
   margin: 0 auto;
@@ -683,12 +684,12 @@ section.field-data-icons .data-field-header {
   max-width: 100%;
 }
 @media (min-width: 992px) {
-  /* line 572, ../sass/screen.scss */
+  /* line 573, ../sass/screen.scss */
   .agritask-header-outside .agritask-header-wrapper {
     max-width: 311px;
   }
 }
-/* line 580, ../sass/screen.scss */
+/* line 581, ../sass/screen.scss */
 .agritask-header-outside .agritask-header-wrapper .agritask-for-header {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -703,13 +704,13 @@ section.field-data-icons .data-field-header {
   -ms-flex-pack: center;
   justify-content: center;
 }
-/* line 593, ../sass/screen.scss */
+/* line 594, ../sass/screen.scss */
 .agritask-header-outside .agritask-header-wrapper .agritask-for-header img {
   height: 55.5px;
   margin-right: 15px;
   max-width: 100%;
 }
-/* line 598, ../sass/screen.scss */
+/* line 599, ../sass/screen.scss */
 .agritask-header-outside .agritask-header-wrapper .agritask-for-header mark {
   background-color: #fff;
   font-size: 46px;
@@ -717,4 +718,43 @@ section.field-data-icons .data-field-header {
   font-weight: 300;
   line-height: 48px;
   color: #589a03;
+}
+
+/* line 611, ../sass/screen.scss */
+footer {
+  background-color: #414141;
+  padding: 43px 0;
+  overflow: hidden;
+}
+/* line 615, ../sass/screen.scss */
+footer .copyright {
+  display: block;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: #fff;
+  margin-top: 34px;
+  font-weight: 300;
+}
+@media (max-width: 991px) {
+  /* line 629, ../sass/screen.scss */
+  footer .sitemap-menu {
+    flex-direction: column;
+  }
+}
+/* line 633, ../sass/screen.scss */
+footer .sitemap-menu a.item {
+  font-family: "Lato", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  letter-spacing: 0.9px !important;
+  text-align: left !important;
+  color: #fff !important;
 }
