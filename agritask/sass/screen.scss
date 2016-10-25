@@ -71,8 +71,8 @@ body, html {
   width: 100%;
   background-size: cover;
   @media (min-width: 1200px){
-    min-height: 100vh;
-    height: 100vh;
+    min-height:calc(100vh - 140px);
+    height: calc(100vh - 140px);
   }
   .hero-text-wrap{
     min-height: 634px;
@@ -85,8 +85,8 @@ body, html {
     -ms-flex-direction: column;
     flex-direction: column;
     @media (min-width: 1200px){
-      min-height: 100vh;
-      height: 100vh;
+      min-height:calc(100vh - 140px);
+      height: calc(100vh - 140px);
     }
     h1{
       @media (min-width: 992px){
@@ -100,7 +100,7 @@ body, html {
       line-height: 1.2;
       text-align: center;
       color: $white;
-      margin-bottom: 35px;
+      margin-bottom: 25px;
     }
     .sub-header{
       font-family: $opensans;
@@ -870,6 +870,31 @@ footer{
     }
   }
 }
+
+
+.slide-bottom{
+  margin-top: 40px;
+  @media screen and (max-width:992px){
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

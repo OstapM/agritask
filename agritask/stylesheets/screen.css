@@ -119,8 +119,8 @@ body, html {
 @media (min-width: 1200px) {
   /* line 69, ../sass/screen.scss */
   .hero-background {
-    min-height: 100vh;
-    height: 100vh;
+    min-height: calc(100vh - 140px);
+    height: calc(100vh - 140px);
   }
 }
 /* line 77, ../sass/screen.scss */
@@ -138,8 +138,8 @@ body, html {
 @media (min-width: 1200px) {
   /* line 77, ../sass/screen.scss */
   .hero-background .hero-text-wrap {
-    min-height: 100vh;
-    height: 100vh;
+    min-height: calc(100vh - 140px);
+    height: calc(100vh - 140px);
   }
 }
 /* line 91, ../sass/screen.scss */
@@ -152,7 +152,7 @@ body, html {
   line-height: 1.2;
   text-align: center;
   color: #fff;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 @media (min-width: 992px) {
   /* line 91, ../sass/screen.scss */
@@ -1033,14 +1033,25 @@ footer .sitemap-menu a.item {
   display: block;
 }
 
-/* line 876, ../sass/screen.scss */
+/* line 875, ../sass/screen.scss */
+.slide-bottom {
+  margin-top: 40px;
+}
+@media screen and (max-width: 992px) {
+  /* line 875, ../sass/screen.scss */
+  .slide-bottom {
+    display: none;
+  }
+}
+
+/* line 901, ../sass/screen.scss */
 .hero-btn-wrap {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 @media screen and (max-width: 992px) {
-  /* line 876, ../sass/screen.scss */
+  /* line 901, ../sass/screen.scss */
   .hero-btn-wrap {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -1048,14 +1059,14 @@ footer .sitemap-menu a.item {
   }
 }
 @media screen and (max-width: 992px) and (max-width: 992px) {
-  /* line 876, ../sass/screen.scss */
+  /* line 901, ../sass/screen.scss */
   .hero-btn-wrap {
     width: 329.9px;
     height: auto;
   }
 }
 
-/* line 889, ../sass/screen.scss */
+/* line 914, ../sass/screen.scss */
 .hero-btn-wrap .standart-btn {
   width: 178.5px;
   height: 54px;
@@ -1070,19 +1081,19 @@ footer .sitemap-menu a.item {
   border-radius: 3px;
   color: #fff;
 }
-/* line 902, ../sass/screen.scss */
+/* line 927, ../sass/screen.scss */
 .hero-btn-wrap .standart-btn:first-child {
   margin-right: 18px;
 }
 @media screen and (max-width: 992px) {
-  /* line 889, ../sass/screen.scss */
+  /* line 914, ../sass/screen.scss */
   .hero-btn-wrap .standart-btn {
     width: 100%;
     height: auto;
     padding: 20.7px 55.7px 19.7px 56.2px;
     text-align: center;
   }
-  /* line 910, ../sass/screen.scss */
+  /* line 935, ../sass/screen.scss */
   .hero-btn-wrap .standart-btn:first-child {
     margin-right: 0;
     margin-top: 22.7px;
@@ -1094,7 +1105,7 @@ footer .sitemap-menu a.item {
     order: 1;
   }
 }
-/* line 922, ../sass/screen.scss */
+/* line 947, ../sass/screen.scss */
 .hero-btn-wrap .active {
   width: 278px;
   height: 54px;
