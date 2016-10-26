@@ -29,6 +29,7 @@ $(document).ready(function(){
     }
   })
   $('.see-below').click(function() {
+    $(this).addClass('active')
     $(this).removeAttr("href");
     $("html, body").animate({ scrollTop: $(".field-data-icons").offset().top}, 1000);
   });

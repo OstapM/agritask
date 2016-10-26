@@ -278,7 +278,7 @@ section.field-data-icons{
       display: block;
       text-align: center;
       margin: 0 auto;
-      margin-bottom: 55px;
+      margin-bottom: 25px;
     }
     @media (max-width: 991px){
       max-width: 294px;
@@ -290,7 +290,28 @@ section.field-data-icons{
       text-align: center;
       display: block;
       margin: 0 auto;
-      margin-bottom: 40px;
+      margin-bottom: 10px;
+    }
+  }
+  .data-field-subheader{
+    font-family: $roboto;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 55px;
+    @media (max-width: 639px){
+      font-size: 24px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: -0.5px;
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 18px;
     }
   }
 }
@@ -302,6 +323,9 @@ section.field-data-icons{
       display: block;
       text-align: center;
       height: 109px;
+      @media (min-width: 992px){
+        height: 89px;
+      }
     }
     @media (max-width: 639px){
       float: left;
@@ -369,6 +393,11 @@ section.field-data-icons{
     @media (max-width: 991px){
       width: 140px;
       height: auto;
+    }
+    @media (min-width: 992px){
+      width: auto;
+      height: 130px;
+      max-width: 100%;
     }
   }
   h4{
@@ -566,36 +595,36 @@ section.field-data-icons{
   }
 }
 
-    a.request-demo{
-      width: 278px;
-      height: 54px;
-      border-radius: 2px;
-      border: solid 2px $green;
-      font-family: $lato;
-      font-size: 14px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      letter-spacing: 0.9px;
-      text-align: center;
-      color: $green;
-      padding: 19px 39px;
-      display: block;
-      text-transform: uppercase;
-      margin-top: 36px;
-      @media (max-width: 767px){
-        font-size: 16px;
-        font-weight: bold;
-        font-style: normal;
-        font-stretch: normal;
-        letter-spacing: 1.1px;
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-        margin-top: 34px;
-        margin-bottom: 50px;
-      }
-    }
+a.request-demo{
+  width: 278px;
+  height: 54px;
+  border-radius: 2px;
+  border: solid 2px $green;
+  font-family: $lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: $green;
+  padding: 19px 39px;
+  display: block;
+  text-transform: uppercase;
+  margin-top: 36px;
+  @media (max-width: 767px){
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 1.1px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 34px;
+    margin-bottom: 50px;
+  }
+}
 
 .text-banner{
   min-height: 602px;
@@ -1416,9 +1445,56 @@ header{
         background-color: $orange;
         border:2px solid $orange;
         transition: all 0.25s ease-in-out;
+        color: $white!important;
       }
       &:last-child{
         margin-left:13px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:991px){
+
+}
+
+
+.main-menu-scroll{
+  background: rgba(255,255,255,1)!important;
+  transition: all 0.25s ease-in-out;
+  z-index: 9999;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0!important;
+  .sign-buttons .item.sign:not(.active){
+    border:2px solid #a3a3a3 !important;
+    border-radius:2px;
+    &:hover{
+      border:2px solid $orange !important;
+    }
+  }
+  a.item:not(.sign){
+    color: #7a7a7a!important;
+    &:hover:not(.sign){
+      background-color:$white;
+      color:$green !important;
+    }
+    &.active:not(.sign){
+      background-color:$white !important;
+      color:$green !important;
+      border-bottom:3px solid $green;
+      border-radius:0;
+      padding-top:26px;
+      padding-bottom:26px;
+    }
+  }
+  .logo{
+    img{
+      display: none;
+      &.scroll-logo{
+        display: block;
       }
     }
   }
