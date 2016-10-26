@@ -910,6 +910,27 @@ footer{
     color: $white;
     margin-top: 34px;
     font-weight: 300;
+    @media (max-width: 991px){
+      font-size: 16px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 1.1px;
+      text-align: left;
+      color: $white;
+      padding-left:.92857143em;
+      margin-top: 20px;
+      position: relative;
+      &:after{
+        content: '';
+        position: absolute;
+        width: 100vw;
+        height: 1px;
+        border-top: solid 1px #5b5b5b;
+        left: -16px;
+        top: -16px;
+      }
+    }
   }
   .sitemap-menu{
     a.item{
@@ -921,6 +942,9 @@ footer{
       letter-spacing: 0.9px!important;
       text-align: left!important;
       color: $white!important;
+      &:hover{
+        background: transparent!important;
+      }
     }
     @media (max-width: 991px){
       -ms-flex-direction: column;
@@ -1189,6 +1213,12 @@ header{
     padding: 16px 0;
     overflow: hidden;
     position: relative;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    overflow: hidden;
+    background: #fff;
   }
 }
 
