@@ -1572,3 +1572,90 @@ footer .sitemap-menu a.item:hover {
   background-color: #ff9600;
   border: solid 2px #ff9600;
 }
+
+/* line 1309, ../sass/screen.scss */
+.wrapper-sinup-btns {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 576px;
+}
+/* line 1314, ../sass/screen.scss */
+.wrapper-sinup-btns .signup-btns {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: auto;
+}
+@media screen and (max-width: 639px) {
+  /* line 1314, ../sass/screen.scss */
+  .wrapper-sinup-btns .signup-btns {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 20px;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+/* line 1331, ../sass/screen.scss */
+.wrapper-sinup-btns .signup-btns a {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  width: 278px;
+  height: 54px;
+  padding: 19px 39px 18px 39px;
+  text-align: center;
+  border-radius: 2px;
+  border: solid 2px #a3a3a3;
+  transition: all 0.25s ease-in-out;
+}
+/* line 1345, ../sass/screen.scss */
+.wrapper-sinup-btns .signup-btns a:hover {
+  color: #fff;
+  background-color: #ff9600;
+  border: solid 2px #ff9600;
+  transition: all 0.25s ease-in-out;
+}
+@media screen and (max-width: 991px) {
+  /* line 1352, ../sass/screen.scss */
+  .wrapper-sinup-btns .signup-btns a:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 1360, ../sass/screen.scss */
+.right.menu .sign-buttons {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 25px;
+}
+/* line 1365, ../sass/screen.scss */
+.right.menu .sign-buttons .item.sign {
+  width: 103px;
+  height: 39px;
+  padding-left: 20px;
+  border-radius: 2px;
+  border: 2px solid rgba(255, 255, 255, 0.79);
+  transition: all 0.25s ease-in-out;
+}
+/* line 1372, ../sass/screen.scss */
+.right.menu .sign-buttons .item.sign:hover, .right.menu .sign-buttons .item.sign.active {
+  height: 40px;
+  background-color: #ff9600;
+  border: 2px solid #ff9600;
+  transition: all 0.25s ease-in-out;
+}
+/* line 1378, ../sass/screen.scss */
+.right.menu .sign-buttons .item.sign:last-child {
+  margin-left: 13px;
+}
