@@ -453,6 +453,14 @@ section.field-data-icons{
     &.darker-gray-back{
       background: $light-gray;
     }
+    @media (max-width: 991px){
+      &:nth-child(even){
+        background-color: $light-gray!important;
+      }
+      &:nth-child(odd){
+        background-color: rgba(239, 239, 239, 0.4)!important;
+      }
+    }
   }
 }
 
@@ -1454,9 +1462,7 @@ header{
   }
 }
 
-@media screen and (max-width:991px){
 
-}
 
 
 .main-menu-scroll{
@@ -1498,4 +1504,27 @@ header{
       }
     }
   }
+}
+
+
+@media screen and (max-width:991px){
+
+  .mobile-menu{
+    padding-top: 60px!important;
+    a.item{
+      padding: 22px 20px!important;
+      text-transform: uppercase!important;
+      font-family: $lato!important;
+      font-size: 16px!important;
+      font-weight: bold!important;
+      font-style: normal!important;
+      font-stretch: normal!important;
+      letter-spacing: 1.1px!important;
+      color: #7a7a7a!important;
+      &.active{
+        background: transparent!important;
+      }
+    }
+  }
+
 }
