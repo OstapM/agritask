@@ -46,8 +46,12 @@ $( window ).resize(function() {
 
 });
 $(window).scroll(function(){
- var scroll = $(window).scrollTop();
- var heroHeight = $('.main-menu').outerHeight();
+
+  if ($(window).width() < 992) {
+  }
+  else {
+    var scroll = $(window).scrollTop();
+    var heroHeight = $('.main-menu').outerHeight();
      //>=, not <=
      if (scroll >= heroHeight) {
       $(".main-menu").addClass("main-menu-scroll");
@@ -56,7 +60,8 @@ $(window).scroll(function(){
     else{
       $(".main-menu").removeClass("main-menu-scroll");
       $(".pushable:not(body)").removeClass("pushable-scroll");
-
-
     }
-  });
+  }
+
+
+});
