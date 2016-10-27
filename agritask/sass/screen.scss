@@ -1484,6 +1484,8 @@ header{
   }
   a.item:not(.sign){
     color: #7a7a7a!important;
+    border-bottom:3px solid transparent;
+
     &:hover:not(.sign){
       background-color:$white;
       color:$green !important;
@@ -1492,6 +1494,23 @@ header{
       background-color:$white !important;
       color:$green !important;
       border-bottom:3px solid $green;
+      border-radius:0;
+      padding-top:26px;
+      padding-bottom:26px;
+    }
+  }
+  a.item:not(.sign){
+    background-color:$white !important;
+    color:$green !important;
+    border-bottom:3px solid $green;
+    border-radius:0;
+    padding-top:26px;
+    padding-bottom:26px;
+    border-bottom:3px solid transparent;
+    &:hover{
+      border-bottom:3px solid $green!important;
+      background-color:$white !important;
+      color:$green !important;
       border-radius:0;
       padding-top:26px;
       padding-bottom:26px;
@@ -1560,6 +1579,23 @@ body{
        //      width: 100% !important;
        //    }
        //  } 
+     }
+   }
+ }
+}
+
+
+body{
+  main{
+    section.our-team{
+      div.ui.container{
+        .ui.grid.column{
+          @media screen and (max-width:480px){
+            div.column{
+              width:100% !important;
+            }
+          }
+        }
       }
     }
   }
