@@ -336,6 +336,7 @@ section.field-data-icons{
         text-align: left;
         width: 110px;
         height: auto;
+        max-width: 100%;
       }
     }
   }
@@ -1511,6 +1512,8 @@ header{
 
   .mobile-menu{
     padding-top: 60px!important;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
     a.item{
       padding: 22px 20px!important;
       text-transform: uppercase!important;
@@ -1521,10 +1524,43 @@ header{
       font-stretch: normal!important;
       letter-spacing: 1.1px!important;
       color: #7a7a7a!important;
-      &.active{
+      &.active,&:hover{
         background: transparent!important;
+      }
+      &:last-child{
+        &:before{
+          height: 0 !important;
+          width: 0 !important;
+        }
       }
     }
   }
 
+}
+
+
+body{
+  main{
+    section.our-team{
+      @media only screen and (min-width:992px) and (max-width: 639px)  {
+        div.ui.grid{
+          .column{
+            width: 50%!important;
+          }
+        }
+        // .ui.stackable.grid>.wide.column{
+        //   width: 50%!important;
+
+        // }
+       // @media only screen and (max-width: 767px) {
+       //    ui.stackable.grid>.wide.column{
+       //      width: 100% !important;
+       //    }
+       //    .ui.grid>[class*="three column"].doubling:not(.stackable).row.row>.column, .ui.grid>[class*="four column"].doubling:not(.stackable).row.row>.column, .ui.grid>[class*="five column"].doubling:not(.stackable).row.row>.column, .ui.grid>[class*="six column"].doubling:not(.stackable).row.row>.column, .ui.grid>[class*="seven column"].doubling:not(.stackable).row.row>.column, .ui.grid>[class*="eight column"].doubling:not(.stackable).row.row>.column, .ui[class*="three column"].doubling:not(.stackable).grid>.column:not(.row), .ui[class*="three column"].doubling:not(.stackable).grid>.row>.column, .ui[class*="four column"].doubling:not(.stackable).grid>.column:not(.row), .ui[class*="four column"].doubling:not(.stackable).grid>.row>.column, .ui[class*="five column"].doubling:not(.stackable).grid>.column:not(.row), .ui[class*="five column"].doubling:not(.stackable).grid>.row>.column, .ui[class*="six column"].doubling:not(.stackable).grid>.column:not(.row), .ui[class*="six column"].doubling:not(.stackable).grid>.row>.column, .ui[class*="seven column"].doubling:not(.stackable).grid>.column:not(.row), .ui[class*="seven column"].doubling:not(.stackable).grid>.row>.column, .ui[class*="eight column"].doubling:not(.stackable).grid>.column:not(.row), .ui[class*="eight column"].doubling:not(.stackable).grid>.row>.column{
+       //      width: 100% !important;
+       //    }
+       //  } 
+      }
+    }
+  }
 }
