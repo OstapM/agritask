@@ -48,8 +48,10 @@ $( window ).resize(function() {
 $(window).scroll(function(){
 
   if ($(window).width() < 992) {
-  }
-  else {
+    }
+
+
+    else {
     var scroll = $(window).scrollTop();
     var heroHeight = $('.main-menu').outerHeight();
      //>=, not <=
