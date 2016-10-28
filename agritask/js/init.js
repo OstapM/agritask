@@ -49,7 +49,7 @@ $(window).resize(function() {
 });
 $(window).scroll(function() {
 
-  if ($(window).width() < 992) {} else {
+  if ($(window).width() < 991) {} else {
     var scroll = $(window).scrollTop();
     var heroHeight = $('.main-menu').outerHeight() - 68;
     //>=, not <=

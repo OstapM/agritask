@@ -1690,12 +1690,12 @@ body{
   height: 100%;
   min-height: 100%;
   @media (min-width: 1200px){
-    min-height: 100vh;
-    height: 100vh;
+    min-height: 461px;
+    height: 461px;
   }
   .hero-text-wrap{
-    min-height:461px;
-    height: 461px;
+    min-height:380px;
+    height: 380px;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -1708,6 +1708,9 @@ body{
     -ms-flex-direction: column;
     -webkit-flex-direction: column;
     flex-direction: column;
+    @media (max-width: 991px){
+      padding-top: 50px;
+    }
     h1{
       max-width: calc(100% - 30px);
       font-family: $opensans;
@@ -1759,8 +1762,8 @@ body{
       }
     }
     @media (min-width: 1200px){
-      min-height: 100vh;
-      height: 100vh;
+      min-height: 461px;
+      height: 461px;
     }
   }
 }

@@ -2017,14 +2017,14 @@ footer .sitemap-menu a.item:hover {
 @media (min-width: 1200px) {
   /* line 1689, ../sass/screen.scss */
   .hero-background-about-us {
-    min-height: 100vh;
-    height: 100vh;
+    min-height: 461px;
+    height: 461px;
   }
 }
 /* line 1696, ../sass/screen.scss */
 .hero-background-about-us .hero-text-wrap {
-  min-height: 461px;
-  height: 461px;
+  min-height: 380px;
+  height: 380px;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -2038,7 +2038,13 @@ footer .sitemap-menu a.item:hover {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
-/* line 1711, ../sass/screen.scss */
+@media (max-width: 991px) {
+  /* line 1696, ../sass/screen.scss */
+  .hero-background-about-us .hero-text-wrap {
+    padding-top: 50px;
+  }
+}
+/* line 1714, ../sass/screen.scss */
 .hero-background-about-us .hero-text-wrap h1 {
   max-width: calc(100% - 30px);
   font-family: "Open Sans", sans-serif;
@@ -2054,7 +2060,7 @@ footer .sitemap-menu a.item:hover {
   margin-bottom: 20px;
 }
 @media (min-width: 992px) {
-  /* line 1711, ../sass/screen.scss */
+  /* line 1714, ../sass/screen.scss */
   .hero-background-about-us .hero-text-wrap h1 {
     max-width: 853px;
     font-family: "Open Sans", sans-serif;
@@ -2068,7 +2074,7 @@ footer .sitemap-menu a.item:hover {
     margin-bottom: 20px;
   }
 }
-/* line 1737, ../sass/screen.scss */
+/* line 1740, ../sass/screen.scss */
 .hero-background-about-us .hero-text-wrap p {
   max-width: calc(100% - 50px);
   font-family: "Open Sans", sans-serif;
@@ -2083,7 +2089,7 @@ footer .sitemap-menu a.item:hover {
   margin: 0 auto;
 }
 @media (min-width: 992px) {
-  /* line 1737, ../sass/screen.scss */
+  /* line 1740, ../sass/screen.scss */
   .hero-background-about-us .hero-text-wrap p {
     max-width: 750px;
     font-family: "Open Sans", sans-serif;
@@ -2099,7 +2105,7 @@ footer .sitemap-menu a.item:hover {
 @media (min-width: 1200px) {
   /* line 1696, ../sass/screen.scss */
   .hero-background-about-us .hero-text-wrap {
-    min-height: 100vh;
-    height: 100vh;
+    min-height: 461px;
+    height: 461px;
   }
 }
