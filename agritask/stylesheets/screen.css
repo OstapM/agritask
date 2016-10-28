@@ -144,7 +144,7 @@ body, html {
     height: calc(100vh - 140px);
   }
 }
-@media (max-height: 1099px) {
+@media (max-height: 640px) {
   /* line 80, ../sass/screen.scss */
   .hero-background {
     min-height: 100vh;
@@ -181,7 +181,7 @@ body, html {
     height: calc(100vh - 140px);
   }
 }
-@media (max-height: 1099px) {
+@media (max-height: 640px) {
   /* line 96, ../sass/screen.scss */
   .hero-background .hero-text-wrap {
     min-height: 100vh;
@@ -1608,7 +1608,7 @@ footer .sitemap-menu a.item:hover {
 /* line 1310, ../sass/screen.scss */
 .main-menu {
   background: rgba(255, 255, 255, 0);
-  transition: all 0.25s ease-in-out;
+  transition: all 0.15s ease-in-out;
   margin: 0 !important;
   width: 100%;
 }
@@ -1616,7 +1616,7 @@ footer .sitemap-menu a.item:hover {
 /* line 1317, ../sass/screen.scss */
 .main-menu-scroll {
   background: white !important;
-  transition: all 0.25s ease-in-out;
+  transition: all 0.15s ease-in-out;
   z-index: 9999;
   width: 100%;
   position: fixed;

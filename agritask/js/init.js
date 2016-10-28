@@ -61,7 +61,7 @@ $(window).scroll(function() {
         $(".main-menu").removeClass("main-menu-scroll");
         $(".pushable:not(body)").removeClass("pushable-scroll");
       };
-      setTimeout(timeout, 200);
+      setTimeout(timeout, 100);
     }
   }
 });
