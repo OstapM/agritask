@@ -28,7 +28,7 @@ $(document).ready(function() {
   })
   $('.see-below').click(function() {
     // $(this).addClass('active')
-    $(this).removeAttr("href");
+    // $(this).removeAttr("href");
     $("html, body").animate({
       scrollTop: $(".field-data-icons").offset().top
     }, 1000);
@@ -61,7 +61,7 @@ $(window).scroll(function() {
         $(".main-menu").removeClass("main-menu-scroll");
         $(".pushable:not(body)").removeClass("pushable-scroll");
       };
-      setTimeout(timeout, 100);
+      setTimeout(timeout, 150);
     }
   }
 });
